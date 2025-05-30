@@ -42,7 +42,7 @@ app.use(methodOverride("_method"));
 app.engine("ejs",ejsMate);
 app.use(express.static(path.join(__dirname,"/public")));
 app.use(bodyParser.json()); 
-app.use('/', chatRoute);
+
 
 const store = MongoStore.create({
     mongoUrl: dbUrl,
