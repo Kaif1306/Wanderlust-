@@ -17,7 +17,7 @@ const MongoStore = require('connect-mongo');
 
 const User = require("./models/user.js");
 const bodyParser = require('body-parser');
-const chatRoute = require('./routes/chat');
+
 
 
 const listingRouter = require("./routes/listing.js");
